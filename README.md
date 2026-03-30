@@ -1,4 +1,4 @@
-## 🚀 Project Overview
+##  Project Overview
 
 This project demonstrates how to containerize a simple Java program using Docker and automate the build and deployment process with GitHub Actions. 
 
