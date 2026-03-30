@@ -1,9 +1,10 @@
-##  Project Overview
+## Project Overview
 
-This project demonstrates how to containerize a simple Java program using Docker and automate the build and deployment process with GitHub Actions. 
+This project demonstrates how to containerize a simple Java program using Docker and automate the build and deployment process with GitHub Actions.
 
-The application prints “Hello, Docker World!” and is packaged into a Docker image. A GitHub Actions workflow is triggered on each push to the `master` branch, which builds the image and pushes it to Docker Hub using secure credentials.
+Docker is used to package the Java application into a container so it can run consistently in any environment. GitHub Actions is used to automatically build the Docker image and push it to Docker Hub whenever changes are pushed to the repository.
 
+The application prints “Hello, Docker World!” and is stored as a Docker image on Docker Hub.
 **Key Components:**
 - Java program (`HelloWorld.java`)
 - Dockerfile to build and run the application
